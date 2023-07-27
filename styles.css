@@ -126,3 +126,26 @@ h2 {
 .presentation h2 {
     margin-top: 40px;
 }
+/* Ajouter ces styles pour le diaporama */
+
+.slideshow {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    height: 300px; /* Définir la hauteur souhaitée pour les images du diaporama */
+    margin-bottom: 20px;
+}
+
+.slideshow img {
+    object-fit: cover; /* Empêche l'écrasement des images */
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    transition: opacity 1s ease; /* Transition de fondu de 1 seconde */
+}
+
+.slideshow img.visible {
+    opacity: 1;
+}
