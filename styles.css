@@ -94,3 +94,40 @@ footer {
 .mp3-player audio {
     width: 200px; /* Taille plus petite */
 }
+
+/* Styles pour la page */
+
+/* ... autres styles ... */
+
+#cv {
+    text-align: left;
+    padding: 40px;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+#cv h2 {
+    font-size: 26px;
+    color: #ffd1dc; /* Rose poudré */
+}
+
+#cv .small-text {
+    font-size: 14px;
+}
+
+#cv ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#cv li {
+    margin-bottom: 20px;
+}
+
+#cv li strong {
+    font-size: 18px;
+}
+
+/* ... autres styles ... */
+
