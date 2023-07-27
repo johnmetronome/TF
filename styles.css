@@ -1,6 +1,6 @@
 body {
-    background-color: black;
-    color: white;
+    background-color: #2b2b2b;
+    color: #ffffff;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -9,6 +9,13 @@ body {
 header {
     text-align: center;
     padding: 20px;
+    background-color: #333;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+    color: #ffcc00;
 }
 
 nav {
@@ -32,6 +39,8 @@ nav a {
     text-decoration: none;
     color: white;
     font-weight: bold;
+    font-size: 20px;
+    transition: color 0.3s ease;
 }
 
 nav a:hover {
@@ -40,6 +49,29 @@ nav a:hover {
 
 main {
     padding: 20px;
+}
+
+.profile {
+    text-align: center;
+    padding: 20px;
+}
+
+.profile img {
+    border-radius: 50%;
+    max-width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.profile h2 {
+    font-size: 28px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #ffcc00;
+}
+
+.profile p {
+    font-size: 16px;
+    line-height: 1.6;
 }
 
 footer {
