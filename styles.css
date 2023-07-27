@@ -69,7 +69,10 @@ main {
     width: 300px; /* Largeur de l'image */
     height: 300px; /* Hauteur de l'image */
     border-radius: 50%; /* Met l'image dans un cercle */
-    border: 5px solid #fff; /* Bordure blanche pour séparer l'image du fond sombre */
+    background-image: url("Images/1.jpg"); /* URL de l'image */
+    background-size: cover; /* Cropper l'image pour qu'elle s'adapte au cercle */
+    background-position: center; /* Centrer l'image */
+    border: 5px solid #ffd1dc; /* Bordure rose poudré pour le cercle */
     filter: grayscale(100%); /* Noir et blanc */
     margin: 0 auto 20px;
 }
@@ -89,3 +92,5 @@ footer {
 }
 
 .mp3-player audio {
+    width: 200px; /* Taille plus petite */
+}
