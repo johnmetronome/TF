@@ -65,11 +65,12 @@ main {
     margin: 0 auto;
 }
 
-.profile img {
-    width: 100%;
-    max-width: 300px;
-    border-radius: 50%;
-    display: block;
+.profile-image {
+    width: 300px; /* Largeur de l'image */
+    height: 300px; /* Hauteur de l'image */
+    border-radius: 50%; /* Met l'image dans un cercle */
+    border: 5px solid #fff; /* Bordure blanche pour séparer l'image du fond sombre */
+    filter: grayscale(100%); /* Noir et blanc */
     margin: 0 auto 20px;
 }
 
@@ -88,5 +89,3 @@ footer {
 }
 
 .mp3-player audio {
-    width: 200px; /* Taille plus petite */
-}
